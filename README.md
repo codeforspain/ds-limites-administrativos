@@ -6,7 +6,7 @@ Geometrías de los limites administrativos de España
 - GeoJSON
 - Actualizado al menos cada año
 
-Éste dataset es parte del proyecto abierto y colaborativo CodeForSpain
+Éste dataset es parte del proyecto abierto y colaborativo **CodeForSpain**
 
 Puedes obtener más información en:
 
