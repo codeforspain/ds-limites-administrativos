@@ -1,6 +1,6 @@
 import os
 
-for root, dirs,files in os.walk('lineas_limite'):
+for root, dirs, files in os.walk('lineas_limite'):
     for file in files:
         if file.endswith(".shp") and file.startswith("recintos"):
             file = file[:-4]
