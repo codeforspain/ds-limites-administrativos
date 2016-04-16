@@ -23,8 +23,5 @@ Puedes obtener más información en:
  3. Convertimos los shapefiles a GeoJSON.
    + Intalamos [gdal] (http://www.gdal.org/). (p. ej. en Mac: `$ brew install gdal`)
    + cd hasta el directorio donde hayasmos descargado el archivo comprimido y se encuentre la carpeta descomprimida.
-   + Ejecuta el script de python: `$ python limitesAdmin.py ` en cada caperta aparecerá su archivo geojons correspondiente.
-   
-   Nota: para los usuarios de Windows [un manual] (http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html)
-
+   + Ejecuta el script de python: `$ python limitesAdmin.py ` en cada caperta aparecerá su archivo GeoJSON correspondiente.
 
