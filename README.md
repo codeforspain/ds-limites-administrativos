@@ -15,13 +15,12 @@ Puedes obtener más información en:
  
 
 ###Comunidades, Provincias y Municipios.
- 1. Descargar los datos de Centro Geografico Nacional ([enlace directo] (http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/lineas_limite.zip))
- o bien desde [datos.gob.es] (http://datos.gob.es/catalogo/lineas-limite-jurisdiccionales-de-espana-0).
+ Los datos los descargaremos del Centro Geográfico Nacional ([enlace directo] (http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/lineas_limite.zip))
+ o bien en [datos.gob.es] (http://datos.gob.es/catalogo/lineas-limite-jurisdiccionales-de-espana-0).
  
- 2. Al descomprimir el archivo Zip nos econcontramos con los shapefiles formados por las líneas que delimitan los límites adminstrativos y otras carpetas con los shapefiles de los recintos. Nos quedaremos con estos últimos. 
+ Al descomprimir el archivo Zip encontraremos los shapefiles formados por las líneas que delimitan los límites administrativos y otras carpetas con los shapefiles de los recintos. Nos quedaremos con estos últimos y son los que convertiremos a GeoJSON. 
  
- 3. Convertimos los shapefiles a GeoJSON.
-   + Intalamos [gdal] (http://www.gdal.org/). (p. ej. en Mac: `$ brew install gdal`)
-   + cd hasta el directorio donde hayasmos descargado el archivo comprimido y se encuentre la carpeta descomprimida.
-   + Ejecuta el script de python: `$ python limitesAdmin.py ` en cada caperta aparecerá su archivo GeoJSON correspondiente.
+ Ejecutar el script para convertir los shapefiles a GeoJSON.
+   + Instalamos [gdal] (http://www.gdal.org/). (p. ej. en Mac: `$ brew install gdal`)
+   + Copia el archivo limitesAdmin.py en la carpetea que se desee descargar los archivos. Ejecuta el script: `$ python limitesAdmin.py ` éste automáticamente descarga los archivos, los descomprime y convierte los shp a GeoJSON. En cada carpeta aparecerá su archivo GeoJSON correspondiente.
 
