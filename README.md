@@ -23,8 +23,8 @@ Puedes obtener más información en:
  3. Convertimos los shapefiles a GeoJSON.
    + Intalamos [gdal] (http://www.gdal.org/). En Mac: $ brew install gdal
    + cd en el directorio donde tengamos descomprimidos los Shapefiles
-   + Ejecuta (sustituyendo [nombre] por el nombre del Shapefile a convertir):
-     
+   + Ejecuta los siguiente sustituyendo [nombre] por el nombre del Shapefile a convertir. 
+
      `$ ogr2ogr -f GeoJSON -t_srs crs:84 [nombre].geojson [nombre].shp`
    
    Nota: para los usuarios de Windows [un manual] (http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html)
