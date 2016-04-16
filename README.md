@@ -22,5 +22,5 @@ Puedes obtener más información en:
  
  Ejecutar el script para convertir los shapefiles a GeoJSON.
    + Instalamos [gdal] (http://www.gdal.org/). (p. ej. en Mac: `$ brew install gdal`)
-   + Copiar el archivo limitesAdmin.py en la carpetea que se desee descargar los archivos. Ejecuta el script: `$ python limitesAdmin.py ` este automáticamente descarga los archivos, los descomprime y convierte los shp a GeoJSON. En cada carpeta aparecerá su archivo GeoJSON correspondiente.
+   + Copiar el archivo limitesAdmin.py en la carpetea que se desee descargar los archivos. Ejecuta el script: `$ python limitesAdmin.py ` este script automáticamente descarga los archivos, los descomprime y convierte los shp a GeoJSON. En cada carpeta aparecerá su archivo GeoJSON correspondiente.
 
