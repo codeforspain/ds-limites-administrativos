@@ -21,8 +21,10 @@ Puedes obtener más información en:
  2. Al descomprimir el archivo Zip nos econcontramos con los shapefiles formados por las líneas que delimitan los límites adminstrativos y otras carpetas con los shapefiles de los recintos. Nos quedaremos con estos últimos. 
  
  3. Convertimos los shapefiles a GeoJSON.
-   + Intalamos [gdal] (http://www.gdal.org/). En Mac: $ brew install gdal.
-   + cd en el directorio donde tengamos descomprimidos los Shapefiles.
-   + Ejecuta los siguiente sustituyendo [nombre] por el nombre del Shapefile a convertir.`$ ogr2ogr -f GeoJSON -t_srs crs:84 [nombre].geojson [nombre].shp`
+   + Intalamos [gdal] (http://www.gdal.org/) p. ej. en Mac: `$ brew install gdal`
+   + cd hasta el directorio donde hayasmos descargado el archivo comprimido y se encuentre la carpeta descomprimida.
+   + Ejecuta el script de python: `$ python limitesAdmin.py ` en cada caperta aparecerá su archivo geojons correspondiente.
    
    Nota: para los usuarios de Windows [un manual] (http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html)
+
+
