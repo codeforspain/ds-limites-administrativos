@@ -25,7 +25,7 @@ if os.path.isfile('lineas_limite.zip'):
         z.extractall('lineas_limite')
     z.close()
 
-    # Buscamos los archivos shp y los convertimos a GeoJSON 
+    # Buscamos los archivos shp y los convertimos a GeoJSON
     for root, dirs, files in os.walk('lineas_limite'):
         for file in files:
             if file.endswith(".shp") and file.startswith("recintos"):
