@@ -12,7 +12,6 @@ else:
     os.makedirs('lineas_limite')
 
 if os.path.isfile('lineas_limite.zip'):
-
     # Descomprimir el archivo
     with zipfile.ZipFile('lineas_limite.zip', 'r') as z:
         z.extractall('lineas_limite')
