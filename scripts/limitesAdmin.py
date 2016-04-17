@@ -23,7 +23,7 @@ if os.path.isfile('lineas_limite.zip'):
             if file.endswith(".shp") and file.startswith("recintos"):
                 file = file[:-4]
                 path = os.path.join(root, file)
-                cmd = 'ogr2ogr -f GeoJSON -t_srs crs:84 ' + path + '.geojson ' + path + '.shp'
+                cmd = 'ogr2ogr --config SHAPE_ENCODING "UTF-8" -f GeoJSON -t_srs crs:84 ' + path + '.geojson ' + path + '.shp'
                 os.system(cmd)
                 end = "Archivo: " + file + " convertido a GeoJSON!"
                 print(end)
