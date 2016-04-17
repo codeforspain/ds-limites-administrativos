@@ -1,4 +1,3 @@
-import urllib2
 import os
 import shutil
 import zipfile
