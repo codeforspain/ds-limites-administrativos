@@ -1,5 +1,5 @@
 # ds-limites-administrativos
-Geometría de las líneas límites administrativos de España a escala 1:25.000
+Geometría de los límites administrativos de España a escala 1:25.000
 
 **Responsable**: @jalbertoroman
 - Comunidades Autónomas, Provincias, Municipios, Comarcas Agrarias, Comarcas Ganaderas.
