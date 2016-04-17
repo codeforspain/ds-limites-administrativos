@@ -7,7 +7,7 @@ os.system("curl -# -f -O http://centrodedescargas.cnig.es/CentroDescargas/equipa
 
 # Comprobamos que el archivo se ha descargado
 if os.path.isfile('lineas_limite.zip'):
-    # Se crea el directorio lineas_limite si no existe y si exixte lo vaciamos.
+    # Se crea el directorio lineas_limite si no existe y si exixte lo vaciamos, ogr2ogr no sobreescribe.
     if not os.path.exists('lineas_limite'):
         os.makedirs('lineas_limite')
     else:
