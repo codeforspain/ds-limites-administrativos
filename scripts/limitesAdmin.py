@@ -5,7 +5,7 @@ import zipfile
 # Descargar el archivo zip, si hay otro archivo con el mismo nombre lo sobreescribe
 os.system("curl -# -f -O http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/lineas_limite.zip")
 
-# Comprobamos que el archivo se ha desgargado
+# Comprobamos que el archivo se ha descargado
 if os.path.isfile('lineas_limite.zip'):
     # Se crea el directorio lineas_limite si no existe y si exixte lo vaciamos.
     if not os.path.exists('lineas_limite'):
